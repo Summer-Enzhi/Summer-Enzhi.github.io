@@ -2,57 +2,109 @@
 <html>
 
 <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Dmego's Resume">
-    <meta name="keywords" content="Dmego,Resume">
-    <meta name="author" content="Dmego">
-    <title>Dmego's Resume</title>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/onlinewebfonts.css"/>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/vno.css">
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/iconfont.css">
-    <link rel="apple-touch-icon" href="https://unpkg.com/dmego-home-page@latest/apple-touch-icon.png">
-    <link rel="icon" href="https://unpkg.com/dmego-home-page@latest/favicon.ico">
+    <title>王恩志 - 简历</title>
+    <!-- Add your meta tags here -->
 </head>
 
 <body>
-    <span class="mobile btn-mobile-menu">
-        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
-        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
-    </span>
-    <header id="panel" class="panel-cover">
-        <div class="panel-main">
-            <div class="panel-main__inner panel-inverted">
-                <div class="panel-main__content">
-                    <h1 class="panel-cover__title panel-title iUp">
-                        <a href="/" title="Dmego Home">Dmego's Resume</a>
-                    </h1>
-                    <div class="navigation-wrapper iUp">
-                        <div>
-                            <nav class="cover-navigation cover-navigation--primary">
-                                <ul class="navigation">
-                                    <li class="navigation__item">
-                                        <a href="/" class="blog-button">返回首页</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <!-- Resume content goes here -->
-                    <p>Welcome to Dmego's Resume!</p>
-                </div>
-            </div>
-            <div class="panel-cover--overlay cover-slate"></div>
-        </div>
-        <div class="remark iUp">
-            <p class="power">Powered By 
-                <a href="https://github.com/features/actions" target="_blank"> GitHub Actions </a> And 
-                <a href="https://hitokoto.cn/" target="_blank"> Hitokoto </a>
-            </p>
-        </div>
-    </header>
-    <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/main.js"></script>
+    <h1>王恩志</h1>
+    <p>18503467617 | <a href="mailto:wangenzhi8@gmail.com">wangenzhi8@gmail.com</a> | 济南</p>
+    <p>22岁 | 男 | 2023级</p>
+
+    <h2>教育经历</h2>
+    <ul>
+        <li>
+            <strong>本科：</strong> 山西大学
+            <ul>
+                <li>学校类型: 双一流</li>
+                <li>专业：数据科学与大数据技术(工科实验班)</li>
+                <li>绩点：3.71/4.5</li>
+                <li>排名：1/30</li>
+                <li>英语水平：CET4-602、CET6-554</li>
+            </ul>
+        </li>
+        <li>
+            <strong>硕士：</strong> 南开大学
+            <ul>
+                <li>学校类型: 985/211</li>
+                <li>专业：计算机科学与技术</li>
+                <li>类型：推免生</li>
+                <li>研究方向：持续学习、异常检测、自然语言处理、计算机视觉</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>科研经历</h2>
+    <ol>
+        <li>
+            <strong>省级大创</strong>《基于图神经网络的法律文本阅读理解系统》
+            <ul>
+                <li>角色: 项目负责人</li>
+                <li>指导老师：张虎</li>
+                <li>项目目标：通过机器智能化地阅读理解裁判文书，解答问题的同时给出答案依据。</li>
+                <li>详细描述：
+                    <ul>
+                        <li>项目目标：通过机器智能化地阅读理解裁判文书，解答问题的同时给出答案依据。</li>
+                        <li>首先使用Bert输出的语义向量Q作为其后网络的输入；在类型预测层，考虑到Bert不同层学习到的向量的差异性，故将Bert网络后四层的向量融合后输入到双向长短时记忆网络Bi-LSTM网络，预测四种答案类型概率。在问题解答层，使用一层全连接层，预测每个字符作为答案开始和结束的概率；</li>
+                        <li>依据推理层，使用动态融合图神经网络DFGN(Dynamically Fused Graph Network for Multi-hop Reasoning)进行多步推理。</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            (CCF C) Anomaly-Based Insider Threat Detection via Hierarchical Information Fusion." International Conference on Artificial Neural Networks.(ICANN 2023)
+        </li>
+    </ol>
+
+    <h2>工作/实习经历</h2>
+    <p>
+        公司名称: 北京第四范式科技有限公司 <br>
+        所属行业: 互联网 <br>
+        所属部门: NLP <br>
+        职位名称: 自然语言处理算法 <br>
+        在职时间: 2022-09 至 2023-02 <br>
+        工作内容: NLP算法实习生，负责 NER、RE  等知识图谱算法优化，部署等
+    </p>
+
+    <h2>竞赛经历</h2>
+    <ol>
+        <li>
+            CCF大数据与计算智能大赛(个人参赛)
+            <ul>
+                <li>奖项: 全国一等奖</li>
+                <li>指导老师：张虎</li>
+                <li>竞赛目标：利用用户行为分析理论，基于无标签的用户上网日志数据，构建上网行为评价模型，确定某一网络操作行为数据的异常程度，解决隐私敏感数据泄露问题。</li>
+                <li>本人首先进行数据分析、特征工程；而后构建孤立森林iForest、自编码器Auto-Encoder、生成式对抗网络GAN等无监督异常检测模型进行对比实验；</li>
+                <li>最终创新性的提出了全局和局部信息融合的异常检测框架，框架中的具体算法使用加权孤立森林联合AutoEncoder模型，精度提升明显，并且在评测中位列第1/ 1259；相关成果已整理成论文正在投稿阶段。</li>
+            </ul>
+        </li>
+        <li>
+            美国大学生数学建模竞赛
+            <ul>
+                <li>奖项: 全国一等奖</li>
+                <li>指导老师：李顺勇</li>
+                <li>竞赛目标：建立投资量化组合模型。首先对数据插值处理，而后使用LSTM长短时记忆网络预测股票价格，并改进Markowitz投资组合理论，建立量化交易投资策略。</li>
+            </ul>
+        </li>
+        <li>
+            中国软件杯大学生软件设计大赛
+            <ul>
+                <li>奖项: 全国三等奖</li>
+                <li>指导老师：张虎</li>
+                <li>竞赛目标：针对新闻类数据，构建文本分类模型，开发易于操作的用户界面前端。</li>
+                <li>对来自不同新闻数据集和自行爬取的新闻数据进行集成，就集成比例进行了实验；</li>
+                <li>文本分类算法方面，尝试了图卷积神经网络GCN、循环神经网络RNN、预训练语言表征模型Bert等；最终使用滑动窗口和TF-IDF建立节点图，输入GCN网络。</li>
+                <li>若模型输出logits均小于某阈值，即判定为“其他”类新闻（赛题与众不同之处）。</li>
+            </ul>
+        </li>
+        <li>
+            全国大学生数学建模竞赛
+            <ul>
+                <li>奖项: 省级二等奖</li>
+                <li>指导老师：林上为</li>
+            </ul>
+        </li>
+    </ol>
 </body>
+
 </html>
